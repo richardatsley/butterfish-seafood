@@ -1,0 +1,332 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lilita One', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    width: auto; 
+  }
+  
+  header {
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  .hbutton {
+    display: inline-block;
+    padding: 20px 30px; 
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    margin: 0 5px; 
+  }
+  
+  .hbutton:hover {
+    background-color: #F2CC8F;
+    color: #E07A5F;
+  }
+body{
+    background-color: #F4F1DE;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    background-color: #E07A5F;
+}
+.hero-image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    background-color: #3D405B;
+}
+
+.textsquare{
+    display: flex;
+    padding: 0;
+    margin: 10;
+    justify-content: center;
+    align-items: center;
+    background-color: #E07A5F;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    color: #F2CC8F;
+    text-align: center;
+}
+.both{
+    justify-content: center;
+    align-items: center;
+}
+.eatstuff{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+.textsquare1{
+    display: flex;
+    padding: 0;
+    margin: 10;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D405B;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    color: #F4F1DE;
+    text-align: center;
+}
+.services{
+    justify-content: center;
+    align-items: center;
+}
+.aboutheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82A0B2;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    color: #F4F1DE;
+    text-align: center;
+    padding: 20px;
+}
+.aboutanim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82A0B2;
+}
+.meet {
+    display: flex;
+    background-color: #E07A5F;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .meet img {
+    width: 100%; 
+    max-width: 1000px; 
+    height: auto; 
+  }
+.emily {
+    display: flex;
+    align-items: center;
+    background-color: #3D405B;
+    color: #F2CC8F;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    
+}
+
+.emanim {
+    flex: 1;
+}
+
+.emtext {
+    flex: 2; 
+    text-align: center; 
+    padding: 20px; 
+}
+.david {
+    display: flex;
+    align-items: center;
+    background-color: #F2CC8F;
+    color: #E07A5F;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+}
+
+.daanim {
+    flex: 1;
+}
+
+.datext {
+    flex: 2; 
+    text-align: center; 
+    padding: 20px; 
+}
+.sean {
+    display: flex;
+    align-items: center;
+    background-color: #3D405B;
+    color: #F2CC8F;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+}
+
+.seaanim {
+    flex: 1;
+}
+
+.seatext {
+    flex: 2; 
+    text-align: center; 
+    padding: 20px; 
+}
+.menudesc{
+    background-color: #3D405B;
+    color: #F2CC8F;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: #E07A5F;
+    color: #3D405B;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+table{
+    margin: 0 auto;
+}
+footer{
+    font-family: 'Lilita One', sans-serif;
+    text-align: center;
+    color: #3D405B;
+}
+.contactbody{
+    font-family: 'Lilita One', sans-serif;
+    text-align: center;
+    color: #F2CC8F;
+    background-color: #E07A5F;
+    font-size: 30px;
+}
+
+.both {
+    width: 600px;
+    margin: 0 auto;
+ }
+ .services {
+    width: 600px;
+    margin: 0 auto;
+ }
+.glyph:hover{
+    fill: #F4F1DE;
+}
+.p1{
+    color: #3D405B;
+    
+}
+.columns {
+    display: flex;
+}
+@media (orientation: portrait) {
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media (orientation: portrait) {
+ .both {
+    width: 80%;
+    margin: 0 auto;
+ }
+ .services {
+    width: 80%;
+    margin: 0 auto;
+ }
+    }
+    .aboutcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px;
+      }
+      
+      .emily,
+      .david,
+      .sean {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        
+        gap: 0px;
+        width: 100%;
+      }
+      
+      .emanim .emtext,
+      .datext .daanim,
+      .seaanim .seatext{
+        width: 100%; 
+      }
+      .emanim img,
+      .daanim img,
+      .seaanim img,
+      .emtext img,
+      .datext img,
+      .seatext img {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
+      }
+
+      @media (orientation: portrait) {
+        .aboutcontainer {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px;
+          }
+          
+          .emily,
+          .david,
+          .sean {
+            display: grid;
+            grid-template-columns: 1fr ; 
+            
+            gap: 0px;
+            width: 100%;
+          }
+          
+          .emanim .emtext,
+          .daanim .datext,
+          .seaanim .seatext{
+            width: 100%; 
+          }
+          .emanim img,
+          .daanim img,
+          .seaanim img,
+          .emtext img,
+          .datext img,
+          .seatext img {
+            width: 100%; 
+            max-width: 100%; 
+            height: auto; 
+          }
+      }
